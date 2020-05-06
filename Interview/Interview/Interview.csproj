@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\BinaryTreeNode.cs" />
     <Compile Include="Problems01\Problem001.cs" />
     <Compile Include="Problems01\Problem002.cs" />
+    <Compile Include="Problems01\Problem003.cs" />
+    <Compile Include="Problems01\Problem004.cs" />
+    <Compile Include="Problems01\Problem005.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
