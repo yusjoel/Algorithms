@@ -1,0 +1,7 @@
+.vs
+_ReSharper.Caches
+packages
+bin
+obj
+*.user
+*.suo
