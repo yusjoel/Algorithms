@@ -63,6 +63,7 @@
     <Compile Include="Problems01\Problem007Tests.cs" />
     <Compile Include="Problems01\Problem008Tests.cs" />
     <Compile Include="Problems01\Problem010Tests.cs" />
+    <Compile Include="Problems02\Problem011Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

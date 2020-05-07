@@ -10,7 +10,7 @@ namespace InterviewTests.Problems01
         [Test]
         public void SolveTest1()
         {
-            var postOrderTraversal = new List<int> { 5,7,6,9,11,10,8 };
+            var postOrderTraversal = new List<int> { 5, 7, 6, 9, 11, 10, 8 };
 
             Assert.IsTrue(Problem006.Solve(postOrderTraversal));
         }
@@ -22,6 +22,5 @@ namespace InterviewTests.Problems01
 
             Assert.IsFalse(Problem006.Solve(postOrderTraversal));
         }
-
     }
 }
