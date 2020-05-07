@@ -1,7 +1,7 @@
-﻿using Interview.Problems01;
-using NUnit.Framework;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Interview.Problems01;
+using NUnit.Framework;
 
 namespace InterviewTests.Problems01
 {

@@ -1,13 +1,13 @@
-﻿using Interview.Problems01;
+﻿using System.Collections.Generic;
+using Interview.Problems01;
 using NUnit.Framework;
-using System.Collections.Generic;
 
 namespace InterviewTests.Problems01
 {
-    [TestFixture()]
+    [TestFixture]
     public class Problem010Tests
     {
-        [Test()]
+        [Test]
         public void SolveTest()
         {
             var sortedNumber = new List<int> { 1, 2, 4, 7, 11, 15 };

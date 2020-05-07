@@ -1,5 +1,5 @@
-﻿using Interview.Common;
-using System;
+﻿using System;
+using Interview.Common;
 
 namespace Interview.Problems01
 {

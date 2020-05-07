@@ -10,13 +10,17 @@ namespace Interview.Problems01
     /// </summary>
     public class Problem002
     {
+        public static void Solve()
+        {
+        }
+
         public class StackWithMin<T> where T : IComparable
         {
-            private T min;
-
             private readonly Stack<T> minStack = new Stack<T>();
 
             private readonly Stack<T> stack = new Stack<T>();
+
+            private T min;
 
             public void Push(T item)
             {
@@ -44,11 +48,6 @@ namespace Interview.Problems01
             {
                 return stack.Peek();
             }
-        }
-
-        public static void Solve()
-        {
-
         }
 
         //public class Node

@@ -10,7 +10,7 @@ namespace Interview.Problems01
     {
         public static bool Solve(List<int> sortedNumbers, int target, out int a, out int b)
         {
-            if(sortedNumbers == null)
+            if (sortedNumbers == null)
                 throw new ArgumentNullException(nameof(sortedNumbers));
 
             int start = 0;

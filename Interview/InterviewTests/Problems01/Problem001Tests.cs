@@ -1,6 +1,6 @@
-﻿using Interview.Problems01;
+﻿using System;
+using Interview.Problems01;
 using NUnit.Framework;
-using System;
 
 namespace InterviewTests.Problems01
 {

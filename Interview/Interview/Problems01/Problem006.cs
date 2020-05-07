@@ -20,7 +20,7 @@ namespace Interview.Problems01
 
         public static bool Solve(List<int> numbers)
         {
-            if(numbers == null)
+            if (numbers == null)
                 throw new ArgumentNullException(nameof(numbers));
 
             return IsPostOrderTraversal(numbers, 0, numbers.Count - 1);
@@ -35,10 +35,7 @@ namespace Interview.Problems01
             int leftEnd = start;
             if (numbers[start] < parent)
             {
-                while (leftEnd + 1 < end && numbers[leftEnd + 1] < parent)
-                {
-                    leftEnd++;
-                }
+                while (leftEnd + 1 < end && numbers[leftEnd + 1] < parent) leftEnd++;
                 if (!IsPostOrderTraversal(numbers, leftStart, leftEnd))
                     return false;
             }
@@ -46,10 +43,8 @@ namespace Interview.Problems01
             int rightStart = leftEnd + 1;
             int rightEnd = end - 1;
             for (int i = rightStart; i < rightEnd; i++)
-            {
                 if (numbers[i] < parent)
                     return false;
-            }
 
             return IsPostOrderTraversal(numbers, rightStart, rightEnd);
         }

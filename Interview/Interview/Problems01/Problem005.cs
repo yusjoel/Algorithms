@@ -18,10 +18,10 @@ namespace Interview.Problems01
 
         public static List<int> BetterSolve(List<int> numbers, int k)
         {
-            if(numbers == null)
+            if (numbers == null)
                 throw new ArgumentNullException(nameof(numbers));
 
-            if(k <= 0)
+            if (k <= 0)
                 throw new ArgumentOutOfRangeException(nameof(k));
 
             if (numbers.Count <= k)

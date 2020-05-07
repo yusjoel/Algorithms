@@ -1,6 +1,6 @@
-﻿using Interview.Common;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
+using Interview.Common;
 
 namespace Interview.Problems01
 {

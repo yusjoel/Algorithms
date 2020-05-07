@@ -21,7 +21,7 @@ namespace Interview.Problems01
 
         public static int BetterSolve(List<int> numbers)
         {
-            if(numbers == null || numbers.Count == 0)
+            if (numbers == null || numbers.Count == 0)
                 throw new ArgumentException("Invalid argument", nameof(numbers));
 
             int maxSum = 0;
